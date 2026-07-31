@@ -10,6 +10,4 @@
   description: Hosts with uptime over 30 days
   query: SELECT * FROM host_vitals WHERE uptime_days > 30
   label_membership_type: dynamic
-  criteria:
-    vital: Uptime_days
-    value: 30
+ 
