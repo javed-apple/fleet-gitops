@@ -22,6 +22,10 @@ org_settings:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
     org_name: fleetblr
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/c0b20808-5900-403c-939a-9eaff22a3ef2
 
   server_settings:
     ###########################################################
