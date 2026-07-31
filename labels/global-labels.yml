@@ -10,4 +10,3 @@
   criteria:
     vital: uptime_days
     value: 30
-    operator: greater_than
