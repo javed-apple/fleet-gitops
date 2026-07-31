@@ -151,6 +151,7 @@ reports:
 ###########################################################
 policies:
   - paths: ../platforms/macos/policies/*.yml
+  - path: ../platforms/macos/scripts/dns-resolvers.policies.yml
   - paths: ../platforms/windows/policies/*.yml
   - paths: ../platforms/linux/policies/*.yml
 
