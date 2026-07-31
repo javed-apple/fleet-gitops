@@ -96,9 +96,9 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#windows-updates
   #   • https://fleetdm.com/guides/enforce-os-updates
   ###########################################################
-  # macos_updates:
-  #   deadline: "2030-04-01"
-  #   minimum_version: "26.0"
+  macos_updates:
+    deadline: "2026-08-28"
+    minimum_version: "26.0"
   #   update_new_hosts: true
   # windows_updates:
   #   deadline_days: 7
