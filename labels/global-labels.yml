@@ -1,6 +1,6 @@
 - name: Department - Engineering
   description: Engineering team
-  label_membership_type: hosts_vitals
+  label_membership_type: host_vitals
   criteria:
-    vitals: end_user_idp_department
+    vital: end_user_idp_department
     value: Engineering
