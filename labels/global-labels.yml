@@ -4,10 +4,12 @@
   criteria:
     vital: end_user_idp_department
     value: Engineering
-    
-- name: uptime over 30 days
+
+- name: Uptime over 30 days
+  platform: Apple
   description: Hosts with uptime over 30 days
-  label_membership_type: host_vitals
+  query: SELECT * FROM host_vitals WHERE uptime_days > 30
+  label_membership_type: any
   criteria:
     vital: uptime_days
     value: 30
