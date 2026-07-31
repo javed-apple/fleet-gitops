@@ -72,6 +72,9 @@ controls:
 # Apps to make available from the Apple App Store or Google Play
 ###########################################################
 software:
+  fleet_maintained_apps:
+      - slug: adobe-acrobat-pro/darwin
+        self_service: true
   app_store_apps:
 
     ###########################################################
@@ -108,7 +111,5 @@ software:
     #   display_name: "Slack"
     #   self_service: true
     #   setup_experience: true
-    fleet_maintained_apps:
-      - slug: adobe-acrobat-pro/darwin
-        self_service: true
+    
       
