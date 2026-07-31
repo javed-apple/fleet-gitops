@@ -4,3 +4,10 @@
   criteria:
     vital: end_user_idp_department
     value: Engineering
+- name: uptime over 30 days
+  description: Hosts with uptime over 30 days
+  label_membership_type: host_vitals
+  criteria:
+    vital: uptime_days
+    value: 30
+    operator: greater_than
