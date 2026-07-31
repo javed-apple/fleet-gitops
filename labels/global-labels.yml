@@ -11,5 +11,5 @@
   query: SELECT * FROM host_vitals WHERE uptime_days > 30
   label_membership_type: any
   criteria:
-    vital: uptime_days
+    vital: Uptime_days
     value: 30
